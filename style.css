@@ -1,0 +1,46 @@
+:root{
+    --primary-color: #5b02ff;
+    --seconday-color: #218cff;
+    --background-color: #ebe9fc;
+    --fontSize: 2rem;
+}
+body{
+    background-color: var(--background-color);
+}
+h1{
+    font-size:3rem;
+    color: var(--primary-color);
+}
+
+h3{
+    font-size: var(--fontSize);
+}
+h4{
+    font-size: var(--fontSize);
+    padding: 0 5rem 0 0;
+}
+span{
+    font-size: var(--fontSize);
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.header{
+    display: grid;
+    
+    justify-content: center;
+    margin: 0.5em;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    justify-items: center;
+    justify-content: center;
+    margin: 5rem auto 0 auto;
+}
+.time-sec{
+    background-color: var(--seconday-color);
+    margin: 1em;
+}
